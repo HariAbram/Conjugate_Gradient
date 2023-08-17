@@ -425,6 +425,7 @@ int main(int argc, char* argv[]) {
 
         }
 
+        Q.wait();
 
         auto kernel_end6 = std::chrono::high_resolution_clock::now();
 
